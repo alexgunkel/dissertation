@@ -1,0 +1,45 @@
+\begin{tikzpicture}[level distance=3cm,%
+sibling distance=3cm,%
+every node/.style={rectangle, thin, inner sep=0.5em,
+minimum size=0.5em, align=center, text width=2.5cm, font=\footnotesize}]
+\node (metaphysik) at (6cm,12cm) [fill=gray!25,draw, rounded corners]
+{Metaphysik}; \node (prop) at (0cm,10.5cm) {Propädeutik};
+\node (eigMet) at (9cm,10.5cm) {eigentliche Metaphysik};
+\node (MdN) at (6,8.5) {Metaphysik der Natur};
+\node (MdS) at (12.5,8.5) [draw,dashed] {Metaphysik der Sitten};
+\node (TrP) at (3,6.5) {Transzen\-den\-tal\-phi\-lo\-so\-phie};
+\node (Physio) at (9,6.5) {Physiologie};
+\node (immanent) at (6,5) {immanent};
+\node (transzendent) at (11,5) {transzendent};
+\node (physica) at (4.5,3.5) {\emph{physica rationalis}};
+\node (psycho) at (7.5,3.5) {\emph{psychologia rationalis}};
+\node (Welt) at (9.4,2) {transzendentale Welterkenntnis};
+\node (Gott) at (12.5,2) {transzendentale Gotteserkenntnis};
+\node (KrV) at (0,0) [draw,dashed] {Kritik der reinen Vernunft};
+\node (Ont) at (3,0) [fill=gray!25,draw, text width=1.7cm] {Ontologie};
+\node (ratPh) at (6.3,0) [fill=gray!25,draw] {rationale Physiologie};
+\node (ratKos) at (9.4,0) [fill=gray!25,draw] {rationale Kosmologie};
+\node (ratTheo) at (12.5,0) [fill=gray!25,draw] {rationale Theologie};
+% \node (metgen) at (3,-1.5) [text width=1.7cm,draw,dashed] {\emph{m.
+% ge\-ne\-ra\-lis}}; \node (metspec) at (9.4,-1.5) [text width=8.7cm,draw,dashed]
+% {\emph{metaphysica specalis}};
+\draw[->] (metaphysik.south) -- (prop.north);
+\draw[->] (metaphysik.south) -- (eigMet.north);
+\draw[->] (eigMet.south) -- (MdN.north);
+\draw[->] (eigMet.south) -- (MdS.north);
+\draw[->] (MdN.south) -- (TrP.north);
+\draw[->] (MdN.south) -- (Physio.north);
+\draw[->] (Physio.south) -- (immanent.north);
+\draw[->] (Physio.south) -- (transzendent.north);
+\draw[->] (prop.south) -- (KrV.north);
+\draw[->] (immanent.south) -- (physica.north);
+\draw[->] (immanent.south) -- (psycho.north);
+\draw[->] (transzendent.south) -- (Welt.north);
+\draw[->] (transzendent.south) -- (Gott.north);
+\draw[->] (TrP.south) -- (Ont.north);
+\draw[->] (physica.south) -- (ratPh.north);
+\draw[->] (psycho.south) -- (ratPh.north);
+\draw[->] (Welt.south) -- (ratKos.north);
+\draw[->] (Gott.south) -- (ratTheo.north);
+\end{tikzpicture}
+
