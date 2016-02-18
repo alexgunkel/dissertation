@@ -18,8 +18,8 @@
 \usepackage{tikz}
 	\usetikzlibrary{trees,decorations.pathreplacing,decorations.markings,snakes}
 
-% \usepackage[english,ngerman]{babel}
-\usepackage[greek,english,ngerman]{betababel}
+\usepackage[english,ngerman]{babel}
+% \usepackage[english,ngerman]{betababel}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[autostyle,german=guillemets,strict=true,english=british]{csquotes}
@@ -104,8 +104,6 @@
 }%
 }%
 
-% \setlength{\parindent}{0pt}
-% \doublehyphendemerits=500 
 \widowpenalty=10000
 \clubpenalty=10000
 \deffootnote[1em]{0em}{1em}{\textsuperscript{\thefootnotemark}}
@@ -133,6 +131,7 @@
 \sodef\so{}{.14em}{.4em plus.1em minus .1em}{.4em plus.1em minus .1em}
 \newcommand{\beispielsatz}[1]{\begin{beispielsaetze}\addtocounter{BeispielCounter}{1}\item #1\end{beispielsaetze}}
 
+
 \newcommand{\quine}[1]{\enquote{#1}}
 \newcommand{\erwaehn}[1]{\enquote{#1}}
 \newcommand{\distanz}[1]{\singlequote{#1}}
@@ -146,9 +145,8 @@
 \newcommand{\punkt}{[\dots\unkern]\xspace}
 \newcommand{\ohio}{o.\,H.\,i.\,O.}
 \newcommand{\myherv}{Hervorhebung von mir}
-% \usepackage[oxonia]{psgreek}
 
-\newcommand{\epoche}{\bcode{E)poxh/}}
+\newcommand{\epoche}{Epoche}
 \newcommand{\unterteilung}{\newpage}
 \newcommand{\wolffsprech}[1]{\singlequote{#1}}
 \newenvironment{these}{\begin{itemize}\item}{\end{itemize}}
@@ -178,19 +176,21 @@
 
 
 %%%% Revisionsbefehle
-\usepackage{color}
-\newcommand{\Revision}[2][Theis]{\textcolor{red}{#2}\index{Revision!#1}}
 
+\newcommand{\Revision}[2][]{#2}
 
 \author{Alexander Gunkel}
 \title{Autonomie -- Metaphysik -- Endlichkeit}
 \subtitle{Die Endlichkeit des menschlichen Denkens bei Kant}
 
+\def\pfill{\unskip~\dotfill\penalty500
+  \strut\nobreak\leaders\hbox to.6em{\hss.\hss}\hfill~\ignorespaces}
+  
 \newcommand{\keyw}[1]{\relax}
 \renewcommand{\endinput}{\relax}
 \makeindex
 \begin{document}
-% \sloppy
+
 
 \includepdf[pages={1}]{TitelblattDefense.pdf}
 \frontmatter
@@ -213,7 +213,6 @@ der \emph{Kant-Studien}. In jedem Fall wird die zitierte Stelle
 durch Angabe des Orts in der Akademie-Ausgabe (\emph{Kant's Gesammelte
 Schriften}) kenntlich gemacht. Das gilt auch dann, wenn dem Zitat eine andere
 Textausgabe zugrunde liegt.}
-% \printshorthands[prenote=Siglen]
 
 \newpage
 \chapter{Literaturverzeichnis}
@@ -232,11 +231,11 @@ Textausgabe zugrunde liegt.}
 \printbibliography[heading=PQS,filter=PQS]
 \printbibliography[heading=SQ,filter=SQ]
 
-\renewcommand{\indexname}{Abbildungsverzeichnis}
-\cleardoublepage\phantomsection%
-\label{listoffigures}\chaptermark{\indexname}%
-\addcontentsline{toc}{chapter}{\indexname}%
-\listoffigures
+% \renewcommand{\indexname}{Abbildungsverzeichnis}
+%\cleardoublepage\phantomsection%
+%\label{listoffigures}\chaptermark{\indexname}%
+%\addcontentsline{toc}{chapter}{\indexname}%
+%\listoffigures
 
 \renewcommand{\indexname}{Namensverzeichnis}
 \cleardoublepage\phantomsection%
