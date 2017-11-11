@@ -1,6 +1,12 @@
 # Aufklärung – Metaphysik – Endlichkeit
 ## Die Endlichkeit menschlichen Denkens bei Kant
 
+PhD thesis, University of Luxembourg  
+Defense: 07 October 2015   
+Translated title: Autonomy – Metaphysics – Finiteness: The Finiteness of Human Thinking in Kant  
+[Link](http://hdl.handle.net/10993/24857 "Permalink to the resource in ORBI-Lu")
+
+### Abstract
 It is often maintained that German Enlightenment philosophy—and especially the Enlightenment program that Immanuel Kant articulated in his famous article in the ‘Berlinische Monatsschrift’—is not able to do justice to the role of testimonial knowledge and hence is an obstacle to a down-to-earth epistemology because of its essential individualistic stance. I argue that this is a misunderstanding and that Kant like other Enlightenment thinkers actually recognizes these social factors and their impact on our knowing and thinking. I show that Kant’s philosophy can be reconstructed as an attempt to show the compatibility of Enlightenment’s demand for independence and the essential dependency of finite cognizers. His mature philosophy aims at developing a kind of Enlightenment Ethics of Belief that can be found in the final sections of his ‘Critique of Pure Reason’.
 
 The central task of (a Kantian conception of) Enlightenment points to intellectual independence, the "thinking for oneself" and the spontaneous activity of our own intellectual faculties that is not ruled by others but only by ourselves. Now this activity should consist of the actualization of the common faculty of reason and not in arbitrary decision making to believe one thing over another. Thinking for oneself thus seems to be the outcome of a competence rather than the result of a mere decision. This is an insight which was famously defended by Christian Wolff. While Wolff claims that this competence is to be understood as being able to follow some special method—the mos geometricus—Kant points to the social character of thinking. Thinking for oneself means competently reasoning in accordance with rules that can only be followed and assessed through conversational practice.
